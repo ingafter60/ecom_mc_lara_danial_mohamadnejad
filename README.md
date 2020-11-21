@@ -21,3 +21,8 @@ Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
         modified:   README.md
         renamed:    public/index.php -> index.php
         modified:   server.php
+
+### 40.3 Part 2. (Setting up the database) Preparing application
+
+        modified:   README.md
+        modified:   config/database.php
