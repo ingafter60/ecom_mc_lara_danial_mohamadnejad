@@ -26,3 +26,24 @@ Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
 
         modified:   README.md
         modified:   config/database.php
+
+### 40.4 Part 2. (Setting up the configuration) Preparing application
+
+        modified:   README.md
+        modified:   app/Http/Controllers/Auth/LoginController.php
+        modified:   app/Http/Controllers/Auth/RegisterController.php
+        new file:   app/Http/Controllers/HomeController.php
+        modified:   app/Http/Middleware/RedirectIfAuthenticated.php
+        modified:   app/Providers/AppServiceProvider.php
+        modified:   config/filesystems.php
+        new file:   resources/views/auth/login.blade.php
+        new file:   resources/views/auth/passwords/email.blade.php
+        new file:   resources/views/auth/passwords/reset.blade.php
+        new file:   resources/views/auth/register.blade.php
+        new file:   resources/views/auth/verify.blade.php
+        new file:   resources/views/home.blade.php
+        new file:   resources/views/layouts/app.blade.php
+        modified:   routes/web.php
+        > php artisan migrate
+        > php artisan make:auth
+        > php artisan serve
