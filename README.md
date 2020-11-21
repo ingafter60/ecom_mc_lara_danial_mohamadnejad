@@ -1,12 +1,12 @@
 # ecom_mc_lara_danial_mohamadnejad
-Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
 
+Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
 
 ## Section 5: Laravel & Javascript - Preparing application
 
 ### 40.1 Part 2. (Create the app) Preparing application
 
-		new file:   .editorconfig
+    	new file:   .editorconfig
         new file:   .env.example
         new file:   .gitattributes
         modified:   .gitignore
@@ -47,3 +47,27 @@ Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
         > php artisan migrate
         > php artisan make:auth
         > php artisan serve
+
+## Section 6: Laravel & Javascript - Header and footer design
+
+### 41. Part 3. Header
+
+        modified:   README.md
+        modified:   app/Http/Controllers/HomeController.php
+        new file:   public/css/header.css
+        new file:   public/css/public.css
+        modified:   resources/views/home.blade.php
+        new file:   resources/views/layouts/default.blade.php
+        new file:   resources/views/partials/header.blade.php
+        modified:   routes/web.php
+
+42. Part 4. Header
+
+43. Part 5. Header
+    13min
+
+44. Part 6. Header
+
+45. Part 7. Footer
+
+46. Part 8. Footer
