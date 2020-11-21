@@ -14,3 +14,10 @@ Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
         modified:   README.md
         ...
         new file:   webpack.mix.js
+
+### 40.2 Part 2. (Moving from public folder) Preparing application
+
+        renamed:    public/.htaccess -> .htaccess
+        modified:   README.md
+        renamed:    public/index.php -> index.php
+        modified:   server.php
