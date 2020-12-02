@@ -1,5 +1,6 @@
 # ecom_mc_lara_danial_mohamadnejad
 
+https://github.com/ingafter60/ecom_mc_lara_danial_mohamadnejad
 Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
 
 ## Section 5: Laravel & Javascript - Preparing application
@@ -52,14 +53,15 @@ Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
 
 ### 41. Part 3. Header
 
+        modified:   .gitignore
         modified:   README.md
-        modified:   app/Http/Controllers/HomeController.php
-        new file:   public/css/header.css
-        new file:   public/css/public.css
+        new file:   public/fa/css/all.css
         modified:   resources/views/home.blade.php
-        new file:   resources/views/layouts/default.blade.php
-        new file:   resources/views/partials/header.blade.php
-        modified:   routes/web.php
+        modified:   resources/views/layouts/default.blade.php
+
+        NOTE: by mistake i did 'git add .' added _copy folder
+        To undo it to this
+        >> λ git reset HEAD _copy
 
 42. Part 4. Header
 
