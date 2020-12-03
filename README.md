@@ -72,9 +72,17 @@ Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
         modified:   resources/views/layouts/default.blade.php
         modified:   resources/views/partials/header.blade.php
 
-43. Part 5. Header
+### 43. Part 5. Header
+
+        modified:   README.md
+        ... (added fa/css) to public folder
+        new file:   public/images/app/wish-icon.png
+        new file:   public/images/app/wish.png
+        modified:   resources/views/partials/header.blade.php
 
 44. Part 6. Header
+
+
 
 45. Part 7. Footer
 
