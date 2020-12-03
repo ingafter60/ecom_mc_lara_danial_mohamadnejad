@@ -87,6 +87,10 @@ Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
         modified:   public/css/public.css
         modified:   resources/views/partials/header.blade.php
 
-45. Part 7. Footer
+## 45. Part 7. Footer
 
+        modified:   README.md
+        modified:   resources/views/layouts/default.blade.php
+        new file:   resources/views/partials/footer.blade.php
+        
 46. Part 8. Footer

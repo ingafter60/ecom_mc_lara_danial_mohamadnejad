@@ -15,5 +15,6 @@
     <div class="main">
         @yield('main')
     </div>
+    @include('partials.footer')
 </body>
 </html>
