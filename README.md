@@ -63,10 +63,16 @@ Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
         To undo it to this
         >> λ git reset HEAD _copy
 
-42. Part 4. Header
+### 42. Part 4. Header
+
+        modified:   README.md
+        new file:   public/css/grid.css
+        modified:   public/css/header.css
+        modified:   public/css/public.css
+        modified:   resources/views/layouts/default.blade.php
+        modified:   resources/views/partials/header.blade.php
 
 43. Part 5. Header
-    13min
 
 44. Part 6. Header
 
