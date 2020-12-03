@@ -80,9 +80,12 @@ Based on mc: Master Mysql, Javascript, Laravel 5.8 and e-commerce project
         new file:   public/images/app/wish.png
         modified:   resources/views/partials/header.blade.php
 
-44. Part 6. Header
+## 44. Part 6. Header
 
-
+        modified:   README.md
+        modified:   public/css/header.css
+        modified:   public/css/public.css
+        modified:   resources/views/partials/header.blade.php
 
 45. Part 7. Footer
 

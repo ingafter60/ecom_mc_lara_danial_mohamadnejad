@@ -31,6 +31,12 @@
             <div class="col col-offset-lg-2 col-offset-md-2 col-lg-6 col-md-6 col-xs12 col-ms-12">
                 <ul class="header-nav">
                     <li class="relativ"><a href="" class="categories-toggle">Categories <i class="fa fa-caret-down"></i></a></li>
+                    <div class="a-list">
+                        <a href="" class="list-item">Electronics</a>
+                        <a href="" class="list-item">Desktops</a>
+                        <a href="" class="list-item">Laptops</a>
+                        <a href="" class="list-item">Watches</a>
+                    </div>
                     <li><a href="">Home</a></li>
                     <li><a href="">Track order</a></li>
                     <li><a href="">Contact</a></li>
@@ -44,6 +50,22 @@
                             <span class="header-nav-line header-nav-line1">Welcome, Sign in</span>
                             <span class="header-nav-line header-nav-line2">Accounts & lists <i class="fa fa-caret-down" style="font-size: 13px"></i></span>
                         </a>
+                        <div class="a-list">
+                            <a href="" class="kist-item">Account</a>
+                            <a href="" class="kist-item">Wish list</a>
+                            @if(Auth::check())
+                            <a href="{{ route('logout') }}" class="list-item" onclick='event.preventDefault(); this.querySelector("form.logout-form").submit()'>
+                            logout
+                            <form action="{{ route('logout') }}" method="POST">
+                                @csrf
+                                <input type="submit" class="hide">
+                            </form>
+                            </a>
+                            @else
+                            <a href="{{ route('login') }}" class="list-item">Login</a>
+                            <a href="{{ route('register') }}" class="list-item">Register</a>
+                            @endif
+                        </div>
                     </li>
                     <li>
                         <a href="" class="header-nav-bold">Orders</a>

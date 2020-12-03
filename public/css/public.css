@@ -22,3 +22,9 @@ form .form-control{
     border-left-width: 1px;
     border-left-width: none;
 }
+.relative{
+position:relative;
+}
+.hide{
+display:none;
+}
